@@ -1,0 +1,8 @@
+from petclinic.models import PetType
+
+PetType.objects.filter(name='Dog').delete()
+
+AND
+
+pettype = PetType.objects.all()
+pettype.delete()
